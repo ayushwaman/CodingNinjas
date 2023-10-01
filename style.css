@@ -1,0 +1,47 @@
+body{
+    background-color:rgba(249, 248, 251, 0.066) !important;
+}
+
+.container{
+    background-image: url(./image/istockphoto-961324146-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 880px;
+    margin-top: 5vh;
+    height: 50vh;
+    font-size: 4rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px 15px 5px gray;
+
+}
+.heading{
+    margin-top: 25px;
+    font-size: 3rem;
+}
+
+.counts{
+    /* border: 1px solid black; */
+    width: 50vw;
+    background-color: white;
+}
+.counts span{
+    /* color: white; */
+}
+
+.btns button{
+    box-shadow:1px 1px 10px 5px #31373d;
+}
+
+/* media query less than equal 720px */
+@media screen and (max-width:720px) {
+    .counts{
+        position: relative;
+        top: 3vh;
+    }
+
+    .button{
+        position: relative;
+        top: 2vh;
+    }
+}
